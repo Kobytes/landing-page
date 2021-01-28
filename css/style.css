@@ -1,0 +1,116 @@
+/* Fonts */
+@import url('https://fonts.googleapis.com/css?family=Open+Sans:400,700|Poppins:700');
+
+/* Fontawesome */
+@import url('https://use.fontawesome.com/releases/v5.6.3/css/all.css');
+
+/* Utilities */
+body {
+  margin: 0;
+  font-family: Open Sans;
+}
+
+h1, h2, h3, h4 {
+  font-family: Poppins;
+}
+
+a {
+  text-decoration: none;
+}
+
+/* HERO BANNER */
+
+.banner
+{
+  background-image: url(../images/background.png);
+  background-size: cover;
+  background-position: center;
+  padding: 200px 0;
+}
+
+.container
+{
+  width: 900px;
+  margin: auto;
+}
+
+.banner h1
+{
+  color: #fff;
+}
+
+.banner p
+{
+  color: #fff;
+  opacity: 0.8;
+  font-size: 20px;
+}
+
+.btn-primary
+{
+  display: inline-block;
+  background-color: #2436da;
+  padding: 16px 36px;
+  border-radius: 50px;
+  color: #fff;
+}
+
+/* SECTION - How it works */
+
+.text-center
+{
+  text-align: center;
+  /* NAN TU DECONNE ? */
+}
+
+.cards
+{
+  display: flex;
+  justify-content: space-between;
+  margin-bottom: 30px;
+}
+
+.card
+{
+  width: 200px;
+  border-radius: 5px;
+  box-shadow: 0 0 5px #adb5bd;
+  text-align: center;
+  padding: 20px;
+  border: 1px solid #adb5bd;
+}
+
+.card img
+{
+  height: 100px;
+}
+
+.card p
+{
+  opacity: 0.5;
+}
+
+/* FOOTER */
+
+.footer
+{
+  text-align: center;
+  padding: 60px;
+  background-color: #1f1d1d;
+}
+
+.footer a
+{
+  font-size: 30px;
+  color: #fff;
+}
+
+.footer p
+{
+  color: #ffffff;
+}
+
+.footer .fas
+{
+  color: #ef233c;
+}
